@@ -1,0 +1,48 @@
+.place {
+    min-height: 761px;
+    background-color: #f0f5fb;
+    padding: 75px 0;
+&__text1 {
+    color: #222b31;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 19px;
+    text-align: center;
+}
+&__text2 {
+    color: #222b31;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 19px;
+    text-align: center;
+}
+&__content {
+    display: flex;
+    margin-top: 39px;
+}
+
+img {
+
+    width: 740px;
+    height: 380px;
+    margin-right: 44px;
+}
+
+ul {
+    color: $main-color;
+}
+li {
+    color: #2b343b;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 300;
+line-height: 17px;
+margin-bottom: 12px;
+list-style-type: none; /* Прячем исходные маркеры */
+}
+   li:before {
+    color: $main-color; /* Цвет маркера */
+    content: "\2022"; /* Сам маркер */
+    margin-right: 10px;
+   }
+}

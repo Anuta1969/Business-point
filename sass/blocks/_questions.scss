@@ -1,0 +1,42 @@
+.questions {
+
+min-height: 549px;
+background-color: #222b31;
+padding-top: 73px;
+padding-bottom: 62px;
+
+&__text {
+
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 67%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 19px;
+    }
+input {
+
+    color: #192226;
+    font-family: "Roboto - Thin";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 12px;
+    padding-top: 24px;
+    padding-left: 29px;
+    display: flex;
+    width: 75%;
+    padding-bottom: 62px;
+    margin: 0 auto;
+}
+    :first-child {
+     padding-bottom: 19px;
+     margin-bottom: 13px;
+}
+
+form {
+    margin-top: 49px;
+}
+
+}

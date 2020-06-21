@@ -1,0 +1,31 @@
+.post {
+    padding-top: 69px;
+    padding-bottom: 108px; 
+    min-height: 752px;
+    background-color: #f0f5fb;
+    position: relative;
+&__slider1 {
+    width: 700px;
+    margin: 0 auto;
+    .slick-prev {
+        display: none;
+    }
+    
+    .slick-next {
+        border: none;
+        position: absolute;
+        top: 100px;
+        left: 800px;
+    }
+  
+}
+
+&__slider2 {
+    width: 1000px;
+    margin-top: 22px;
+}
+.slider-1 {
+    width: 700px;
+    height: 400px;
+}
+}

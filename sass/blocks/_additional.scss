@@ -1,0 +1,44 @@
+.additional {
+
+    min-height: 573px;
+    padding-top: 80px;
+    padding-bottom: 74px;
+    &__wrapper {
+        display: flex;
+        margin-top: 111px;
+    }
+    &__block {
+        position: relative;
+        border : 1px solid #62d0b8;
+        width: 50%;
+        padding: 100px 32px 70px 32px;
+        margin-right: 40px;
+    }
+    &__title {
+        color: #192226;
+        font-family: "Roboto - Bold";
+        font-size: 17px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__text {
+        color: #2b343b;
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 20px;
+        text-align: center;
+    }
+    &__price {
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 12px;
+        text-transform: uppercase;
+        margin-top: 82px;
+        text-align: center;
+    }
+    &__icon {
+        position: absolute;
+        top: -70px;
+        left: 158px;
+    }
+}

@@ -1,0 +1,108 @@
+.button {
+    background-color: $main-color;
+    cursor: pointer;
+    color: #ffffff;
+&__mini {
+    width: 161px;
+    height: 58px;
+    border: 8px solid #192226;
+    margin-top: 30px;
+    display: block; 
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 12px;
+    }
+&__tariff {
+    width: 228px;
+    height: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 300;
+    border : none;
+  
+    }
+&__service {
+    width: 133px;
+    height: 40px;
+    margin-top: 18px;
+    border: none;
+   
+    }
+&__additional {
+    width: 220px;
+    height: 50px;
+    margin-top: 24px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 300;
+    position: absolute;
+    top: 377px;
+    left: 100px;
+    }
+&__questions {
+    width: 245px;
+    height: 62px;
+    display: block;
+    margin: 30px auto 0;
+    font-size: 20px;
+    font-weight: 300;
+    }
+
+
+&__modal {
+    display: block;
+    width: 245px;
+    height: 62px;
+    margin: 30px auto 0;
+    }
+
+
+&__feed {
+    width: 159px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 23px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+    border: none;
+
+}
+}
+
+.title {
+font-size: 30px;
+font-weight: 400;
+line-height: 12px;
+text-transform: uppercase;
+text-align: center;
+color: #192226;
+&__white {
+    color: white;
+    }
+}
+.red {
+width: 217px;
+height: 4px;
+background-color: $main-color;
+margin-top: 31px;
+margin: 31px auto 0;
+border: none;
+}
+.grey {
+width: 278px;
+height: 1px;
+background-color: #485862;
+margin: 5px auto 0;
+border: none;
+}
+.grey-long {
+width: 1000px;
+height: 1px;
+background-color: #485862;
+margin-top: 20px;
+border: none;
+}

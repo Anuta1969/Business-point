@@ -1,0 +1,60 @@
+.service {
+
+    min-height: 800px;
+    padding: 93px 0 70px 0;
+    &__wrapper {
+        display: flex;
+        margin-top: 26px;
+        flex-wrap: wrap;
+        height: 320px;
+    }
+    &__block {
+        display: flex;
+        margin-bottom: 70px;
+    }
+    &__item {
+        width: 323px;
+    }
+    &__icon {
+
+        width: 126px;
+        height: 126px;
+        margin-right: 30px;
+    }
+    &__descr {
+        color: #222b31;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: center;
+        margin-top: 19px;
+        }
+    &__subtitile {
+        color: #192226;
+        font-family: "Roboto - Bold";
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 12px;
+        }
+    &__text {
+        line-height: 19px;
+        text-align: left;
+        margin-top: 19px;
+        color: #2b343b;
+        font-size: 15px;
+        font-weight: 300;
+        }
+        &__img {
+            margin-left: 300px;
+            margin-top: 90px;
+        }
+        &__text-end {
+        color: #222b31;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: center;
+        width: 85%;
+        margin-top: 34px;
+        }
+}
