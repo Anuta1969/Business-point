@@ -19,7 +19,7 @@ $(document).ready(function(){
   slidesToShow: 1,
   slidesToScroll: 1,
   infinite: true,
-  arrows: true,
+  arrows: false,
   fade: true,
   asNavFor: '.post__slider2',
  
@@ -31,7 +31,7 @@ $(document).ready(function(){
 
 
 $('.post__slider2').slick({
-  slidesToShow: 4,
+  slidesToShow: 5,
   slidesToScroll: 1,
   asNavFor: '.post__slider1',
   // dots: true,

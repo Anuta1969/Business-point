@@ -3,41 +3,39 @@
 padding-top: 77px;
 padding-bottom: 96px;
 
-&__wrapper {
-    display: flex;
-    flex-direction: column;
-height: 500px;
-    flex-wrap: wrap;
-}
-&__block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 34px;
-}
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        flex-wrap: wrap;
+    }
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 34px;
+    }
+    &__icon {
+    
+        width: 126px;
+        height: 126px;
+        margin-right: 29px;
+    }
+    &__descr {
+        width: 324px;
+    }
+    &__subtitle {
 
-&__icon {
-   
-    width: 126px;
-    height: 126px;
-    margin-right: 29px;
-}
-&__descr {
-    width: 324px;
-}
-&__subtitle {
+        font-family: "Roboto - Bold";
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 12px;
+    }
+    &__text {
+        color: #2b343b;
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 20px;
 
-    font-family: "Roboto - Bold";
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 12px;
-}
-
-&__text {
-    color: #2b343b;
-    font-size: 15px;
-    font-weight: 300;
-    margin-top: 20px;
-
-}
+    }
 }

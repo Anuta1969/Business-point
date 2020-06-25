@@ -1,5 +1,7 @@
 .header {
     height: 83px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     &__wrapper {
         display: flex;
     }
@@ -7,12 +9,11 @@
         display: flex;
     }
     &__wrapper2 {
-        margin-top: 21px;
+        // margin-top: 21px;
     }
     &__wrapper1 {
         span {
             color: #192226;
-            font-family: Roboto;
             font-size: 17px;
             font-weight: 300;
             line-height: 12px;
@@ -33,29 +34,27 @@
     &__text {
 
         margin-left: 38px;
-        margin-right: 261px;
-        margin-top: 21px;
+        margin-right: 342px;
+       
     }
     &__phone {
         text-decoration: none;
-        font-family: Roboto;
         color: #192226;
         margin-top: 8px;
         font-size: 24px;
         font-weight: 400;
+        line-height: 12px;
         span {
             font-family: "Roboto - Light";
             font-weight: 300;
             color: grey;
         }
     }
-
     &__button {
         width: 154px;
         height: 40px;
         background-color: $main-color;
         color: #ffffff;
-        font-family: Roboto;
         font-size: 15px;
         font-weight: 300;
         border: none;

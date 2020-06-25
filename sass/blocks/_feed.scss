@@ -2,11 +2,12 @@
     min-height: 561px;
     background-color: #f0f5fb;
     padding: 72px 0 52px 0;
-&__wrapper {
+    &__wrapper {
         display: flex;
         margin-top: 35px;
         width: 1000px;
-        margin: 0 auto;
+        margin: 50px auto 0;
+        text-align: left;
     .slick-prev {
         border: none;
         width: 50px;
@@ -21,7 +22,7 @@
     }
     }
 
-&__text {
+    &__text {
     padding: 10px 0;
     }
     &__icon {
@@ -31,45 +32,46 @@
         margin-right: 35px;
     }
 
-&__item {
-    display: flex;
-    flex-wrap: wrap;;
-}
-
-&__name {
-    color: #222b31;
-    font-family: "Roboto - Regular";
-    font-size: 17px;
-    font-weight: 400;
+    &__item {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
     }
-
-&__position {
-    color: #2b343b;
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 21px;
-    margin-top: 10px;
-    }
-&__descr {
-    color: #2b343b;
-    font-family: "Roboto - Thin Italic";
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 25px;
-    width: 70%;
-    margin-top: 35px;
-    padding: 20px;
-    position: relative;
+    &__name {
+        color: #222b31;
+        font-family: "Roboto - Regular";
+        font-size: 17px;
+        font-weight: 400;
+        }
+    &__position {
+        color: #2b343b;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 21px;
+        margin-top: 10px;
+        }
+    &__descr {
+        color: #2b343b;
+        font-family: "Roboto - Thin Italic";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        width: 75%;
+        padding: 0 30px;
+        margin-top: 35px;
+    
     }
 }
 .quetes_left{
     position: absolute;
-    top: 90px;
-    left: -20px;
+    top: 264px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
 }
 .quetes_right{
     position: absolute;
-    top: 90px;
-    right: -20px;
+    top: 264px;
+    right: 112px;
 }
