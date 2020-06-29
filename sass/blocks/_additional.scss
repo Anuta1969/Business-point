@@ -5,14 +5,17 @@
     &__wrapper {
         display: flex;
         margin-top: 111px;
+       
     }
     &__block {
         position: relative;
         border : 1px solid #62d0b8;
         width: 50%;
-        padding: 100px 32px 70px 32px;
-        margin-right: 40px;
+        padding: 100px 15px 70px 32px;
+        min-height: 383px;
+        margin-left: 40px;
     }
+  
     &__title {
         color: #192226;
         font-family: "Roboto - Bold";
@@ -30,14 +33,23 @@
     &__price {
         font-size: 21px;
         font-weight: 400;
-        line-height: 12px;
         text-transform: uppercase;
         margin-top: 82px;
         text-align: center;
+        position: absolute;
+        top: 217px;
+        left: 143px;
     }
     &__icon {
         position: absolute;
         top: -70px;
         left: 158px;
+    }
+}
+
+.additional__wrapper {
+    :last-child {
+        margin-left: 40px;
+     
     }
 }

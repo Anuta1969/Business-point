@@ -10,8 +10,8 @@
     }
     &__menu {
         display: flex;
-    justify-content: center;
-    margin-top: 35px;
+        justify-content: center;
+        margin-top: 35px;
     }
     &__icon {
         margin-right: 2px;
@@ -37,11 +37,11 @@
         text-decoration: none;
         }
     &__end {
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 22px;
-    color: #485862;
-    text-align: center;
-    margin-top: 15px;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 22px;
+        color: #485862;
+        text-align: center;
+        margin-top: 15px;
         }
 }

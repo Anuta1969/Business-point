@@ -6,11 +6,11 @@
         width: 161px;
         height: 58px;
         border: 8px solid #192226;
-        margin-top: 30px;
+      margin-left: 10px;
         display: block; 
         font-size: 20px;
         font-weight: 300;
-        line-height: 12px;
+       
         }
     &__tariff {
         display: block;
@@ -25,15 +25,12 @@
         position: absolute;
         bottom: 27px;
         left: 41px;
-    
-    
         }
     &__service {
         width: 133px;
         height: 40px;
         margin-top: 18px;
         border: none;
-    
         }
     &__additional {
         width: 220px;
@@ -44,8 +41,8 @@
         font-size: 17px;
         font-weight: 300;
         position: absolute;
-        top: 377px;
-        left: 100px;
+        top: 330px;
+        left: 136px;
         }
     &__questions {
         width: 245px;
@@ -72,14 +69,11 @@
         display: block;
         margin-top: 50px;
         border: none;
-
     }
 }
-
     .title {
     font-size: 30px;
     font-weight: 400;
-    line-height: 12px;
     text-transform: uppercase;
     text-align: center;
     color: #192226;

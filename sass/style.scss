@@ -13,7 +13,7 @@ padding: 0;
     position: relative;
 }
 
-
+  
     @import 'base/variables';
     @import 'blocks/modal';
     @import 'blocks/header';
@@ -27,8 +27,8 @@ padding: 0;
     @import 'blocks/additional';
     @import 'blocks/feed';
     @import 'blocks/questions';
-  
     @import 'blocks/map';
     @import 'blocks/footer';
     @import 'blocks/modal';
+    @import 'base/media';
    

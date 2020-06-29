@@ -1,0 +1,511 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+
+    }
+    .header {
+        &__text {
+        display: none;
+        }
+        &__phone {
+            margin-left: 100px;
+        }
+    }
+    .mini {
+
+        h1 {
+            font-size: 28px;
+        
+        }
+        h2 {
+            font-size: 34px;
+    
+        }
+        input {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        &__form-text {
+            width: 80%;
+        }
+    }
+    .post {
+
+        &__mini {
+            margin-right: 20px;
+        }
+    }
+    .form__icon-name {
+        display: none;
+    }
+
+    .form__icon-name {
+        display: none;
+    }
+   
+  
+    .input {
+        flex-direction: column;
+      
+            :last-child {
+            transform: translateX(+4px);
+            }
+        }
+    .form__icon-name {
+    display: none;
+}
+    .form__icon-phone {
+     display: none;
+    }
+}
+
+@media (max-width: 992px){
+    .container {
+        max-width: 720px;
+    }
+    .mini {
+        padding-bottom: 20px;
+        &__contact-form {
+            flex-direction: column;
+            text-align: center;
+        }
+      
+    }
+    .button {
+        &__mini {
+            margin: 20px auto;
+        }
+        &__additional {
+            position: static;
+            width: 80%;
+        }
+    }
+    .feed-form {
+        flex-direction: column;
+    }
+
+    .why {
+        &__wrapper {
+            flex-wrap: nowrap;
+            flex-direction: column;
+        }
+        &__subtitle {
+            font-size: 22px;
+            line-height: 18px;
+        }
+        &__text {
+            font-size: 19px;
+        }
+    }
+    .tariff {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__card {
+            max-width: 400px;
+            margin-left: 50px;
+        }
+        &__desr {
+            font-size: 17px;
+            margin-top: 10px;
+        }
+        &__price {
+            font-size: 17px;
+        }
+    }
+    .title {
+        font-size: 28px;
+    }
+    .service {
+        &__descr {
+            font-size: 19px;
+        }
+        &__img {
+            margin-left: 270px;
+            margin-top: 0px;
+        }
+        &__subtitle {
+            font-size: 20px;
+        }
+        &__text {
+            font-size: 18px;
+        }
+        &__text-end {
+            width: 100%;
+        }
+    }
+    .place {
+        &__text1 {
+            font-size: 19px;
+        }
+        &__text2 {
+            font-size: 19px;
+        }
+        &__content {
+            flex-direction : column;
+        }
+        &__table {
+            margin-top: 30px;
+            margin-left: 35px;
+        }
+        li {
+            font-size: 22px;
+        }
+    }
+    .additional {
+        &__block {
+        padding: 100px 22px 30px 22px;
+        }
+        &__icon {
+            left: 86px;
+            top: -80px;
+        }
+        &__title {
+            font-size: 22px;
+        }
+        &__text {
+            display: none;
+        }
+        &__price {
+            position: static;
+            margin-top: 45px;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .container {
+        max-width: 720px;
+    }
+    .mini {
+        &__icon__text {
+            display: none;
+        }
+    }
+    .title {
+        font-size: 24px;
+    }
+    .button {
+        &__additional {
+        font-size: 15px;
+        }
+    }
+    .service {
+        &__descr {
+            display: none;
+        }
+        &__subtitle {
+            font-size: 20px;
+        }
+        &__text {
+            font-size: 19px;
+        }
+    }
+    .place {
+        &__text1 {
+            display: none;
+        }
+        &__text2 {
+            display: none;
+        }
+        img {
+            width: 640px;
+            height: 280px;
+            margin: 0 auto;
+        }
+        li {
+            font-size: 17px;
+        }
+    }
+    .questions {
+
+        &__text {
+            font-size: 20px;
+        }
+    }
+
+    .additional {
+        &__block {
+        width: 45%;
+        
+        }
+        &__wrapper {
+            margin: 111px 42px 0 42px;
+        }
+        &__price {
+            font-size: 20px;
+        }
+    }
+    .post {
+        &__span {
+            display: none;
+        }
+
+        &__slider1 {
+            width: 570px;
+        }
+    }
+  
+}
+@media (max-width: 575px){
+    .container {
+        max-width: 540px;
+    }
+    .header {
+        &__logo {
+            img {
+                width: 60px;
+                height: 60px;
+                }
+        }
+    }
+    .button {
+        &__service {
+            font-size: 17px;
+        }
+    }
+    .title {
+        font-size: 20px;
+    }
+    .header {
+        &__phone {
+        margin-left: 25px;
+        font-size: 20px;
+        margin-top: 17px;
+        }
+        &__button {
+            margin-left: 20px;
+            width: 90%;
+        }
+    }
+
+    .mini {
+
+        h2 {
+
+            font-size: 28px;
+            color: orange;
+        }
+        h1 {
+            font-size: 26px;
+        }
+     
+        &__form-text {
+            width: 88%;
+            
+        }
+        
+    }
+
+  
+    .input {
+       
+            :first-child {
+            transform: translateX(3px);
+            }
+    }
+
+    .why {
+
+        &__block {
+            flex-direction: column;
+        }
+
+        &__descr {
+            margin-top: 20px;
+            text-align: center;
+        }
+    }
+    .service {
+        &__img {
+            display: none;
+        }
+        &__text-end {
+            display: none;
+        }
+        &__block {
+            flex-direction: column;
+        }
+        &__item {
+            margin-top: 20px;
+            text-align: center;
+        }
+        &__icon {
+            margin: 0 auto;
+        }
+
+        &__text {
+            text-align: center;
+        }
+      
+    }
+    .tariff {
+        &__item {
+            display: none;
+        }
+        &__header {
+            font-size: 16px;
+        }
+        &__card {
+            height: 200px;
+            margin-left: 50px;
+        }
+        &__price {
+            font-size: 15px;
+        }
+        .grey {
+            display: none;
+        }
+    }
+    .additional {
+        &__wrapper {
+            flex-direction: column; 
+        }
+        &__block {
+            width: 90%;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        :last-child {
+            margin-top: 50px;
+            margin-left: 10px;
+        }
+        &__icon {
+            width: 100px;
+            height: 100px;
+            position: static;
+            margin: 0 70px;
+            margin-top: 20px;
+        }
+    }
+    .button {
+
+        &__additional {
+            width: 80%;
+        }
+    }
+    .post {
+
+        &__slider1 {
+            width: 440px;
+        }
+    }
+    .place {
+      
+        img {
+            width: 320px;
+            height: 180px;
+        }
+    }
+    .footer__link {
+      
+        font-size: 15px;
+    
+}
+}
+
+@media (max-width: 320px){
+    .container {
+        max-width: 280px;
+    }
+    .header {
+        height: 160px;
+            &__wrapper {
+                flex-direction: column;
+            }
+            &__phone {
+                margin-left: 10px;
+                font-size: 17px;
+            }
+    }
+    .button {
+
+        &__tariff {
+            width: 70%;
+        }
+    }
+    .post {
+        &__slider1 {
+            width: 240px;
+        }
+    }
+    .mini {
+        h2 {
+            font-size: 24px;
+            color: blue;
+        }
+        h1 {
+            display: none;
+        }
+        h3 {
+            display: none;
+        }
+        input {
+            width: 95%;
+        }
+        &__icon{
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+    .why {
+        &__subtitle {
+        width: 50px;
+        margin-left: 80px;
+        }
+        &__text {
+            display: none;
+        }
+    }
+    .place li {
+        font-size: 15px;
+    }
+    .service {
+        &__text {
+            display: none;
+        }
+        &__subtitle {
+            width: 50px;
+            margin-left: 100px;
+            line-height: 20px;
+        }
+    }
+
+    .additional  {
+       margin: 10px 5px;
+        &__icon {
+        width: 60px;
+        height: 60px;
+        margin: 0 50px;
+        }
+        &__wrapper {
+          width: 90%;
+        }
+        &__price {
+            font-size: 17px;;
+        }
+
+        &__title {
+            font-size: 17px;
+        }
+    }
+    .title {
+        font-size: 17px;
+    }
+    .place {
+        img {
+            width: 220px;
+            height: 180px;
+        }
+    }
+
+    .footer__menu {
+      
+            display: none;
+        
+    }
+   
+}
+

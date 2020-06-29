@@ -2,23 +2,38 @@
     min-height: 561px;
     background-color: #f0f5fb;
     padding: 72px 0 52px 0;
+
     &__wrapper {
         display: flex;
         margin-top: 35px;
-        width: 1000px;
+        max-width: 1000px;
         margin: 50px auto 0;
         text-align: left;
+
     .slick-prev {
-        border: none;
+       border: none;
+       background-color: #f0f5fb;
+       position: absolute;
+       top: 191px;
+       left: -67px;
         width: 50px;
         height: 50px;
+        img {
+            width: 40px;
+        }
     }
     
     .slick-next {
         border: none;
+        background-color: #f0f5fb;
        width: 50px;
        height: 50px;
-
+       position: absolute;
+       top: 191px;
+       right: 67px;
+       img {
+        width: 40px;
+    }
     }
     }
 
@@ -62,6 +77,7 @@
         margin-top: 35px;
     
     }
+
 }
 .quetes_left{
     position: absolute;

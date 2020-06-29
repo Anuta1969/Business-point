@@ -6,7 +6,7 @@
         display: flex;
         margin-top: 26px;
         flex-wrap: wrap;
-        height: 320px;
+        min-height: 320px;
         justify-content: center;
     }
     &__block {
@@ -30,7 +30,7 @@
         text-align: center;
         margin-top: 19px;
         }
-    &__subtitile {
+    &__subtitle {
         color: #192226;
         font-family: "Roboto - Bold";
         font-size: 17px;
@@ -47,7 +47,7 @@
         }
         &__img {
             margin-left: 300px;
-            margin-top: 90px;
+            margin-top: 49px;
         }
         &__text-end {
         color: #222b31;
