@@ -15,6 +15,7 @@
 
         h1 {
             font-size: 28px;
+            color: pink;
         
         }
         h2 {
@@ -26,8 +27,16 @@
             font-size: 18px;
         }
         &__form-text {
-            width: 80%;
+            width: 100%;
         }
+      
+        &__contact-form {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    .feed-form {
+        flex-direction: column;
     }
     .post {
 
@@ -43,7 +52,6 @@
         display: none;
     }
    
-  
     .input {
         flex-direction: column;
       
@@ -64,12 +72,13 @@
         max-width: 720px;
     }
     .mini {
-        padding-bottom: 20px;
-        &__contact-form {
-            flex-direction: column;
-            text-align: center;
-        }
-      
+     
+
+            h1 {
+                font-size: 28px;
+                color: yellow;
+            
+            }
     }
     .button {
         &__mini {
@@ -80,10 +89,7 @@
             width: 80%;
         }
     }
-    .feed-form {
-        flex-direction: column;
-    }
-
+ 
     .why {
         &__wrapper {
             flex-wrap: nowrap;
@@ -103,7 +109,7 @@
         }
         &__card {
             max-width: 400px;
-            margin-left: 50px;
+            margin: 0 auto;
         }
         &__desr {
             font-size: 17px;
@@ -190,6 +196,7 @@
         font-size: 15px;
         }
     }
+   
     .service {
         &__descr {
             display: none;
@@ -227,7 +234,6 @@
     .additional {
         &__block {
         width: 45%;
-        
         }
         &__wrapper {
             margin: 111px 42px 0 42px;
@@ -235,6 +241,9 @@
         &__price {
             font-size: 20px;
         }
+    }
+    .stick {
+        display: none;
     }
     .post {
         &__span {
@@ -245,7 +254,6 @@
             width: 570px;
         }
     }
-  
 }
 @media (max-width: 575px){
     .container {
@@ -256,7 +264,10 @@
             img {
                 width: 60px;
                 height: 60px;
-                }
+            }
+        }
+        &__phone {
+            font-size: 20px;
         }
     }
     .button {
@@ -265,7 +276,9 @@
         }
     }
     .title {
-        font-size: 20px;
+        font-size: 21px;
+      
+        text-align: center;
     }
     .header {
         &__phone {
@@ -278,39 +291,32 @@
             width: 90%;
         }
     }
-
     .mini {
-
         h2 {
-
             font-size: 28px;
             color: orange;
         }
         h1 {
             font-size: 26px;
         }
-     
+        h3 {
+            display: none;
+        }
         &__form-text {
             width: 88%;
             
         }
-        
     }
-
-  
     .input {
-       
             :first-child {
-            transform: translateX(3px);
+            transform: translateX(0px);
             }
     }
-
+  
     .why {
-
         &__block {
             flex-direction: column;
         }
-
         &__descr {
             margin-top: 20px;
             text-align: center;
@@ -333,11 +339,9 @@
         &__icon {
             margin: 0 auto;
         }
-
         &__text {
             text-align: center;
         }
-      
     }
     .tariff {
         &__item {
@@ -347,8 +351,9 @@
             font-size: 16px;
         }
         &__card {
-            height: 200px;
-            margin-left: 50px;
+            height: 260px;
+            width: 70%;
+            margin: 0 auto;
         }
         &__price {
             font-size: 15px;
@@ -358,24 +363,29 @@
         }
     }
     .additional {
+        padding-top: 20px;
+
+        &__block {
+            padding: 50px 22px 30px 22px;
+        }
+        
         &__wrapper {
             flex-direction: column; 
         }
         &__block {
-            width: 90%;
-            margin-left: 10px;
-            margin-right: 10px;
+            width: 85%;
+            margin: 0 auto;
         }
         :last-child {
             margin-top: 50px;
-            margin-left: 10px;
+            margin-left: 20px;
         }
         &__icon {
             width: 100px;
             height: 100px;
             position: static;
             margin: 0 70px;
-            margin-top: 20px;
+            margin-top: 10px;
         }
     }
     .button {
@@ -383,9 +393,12 @@
         &__additional {
             width: 80%;
         }
+
+        &__tariff {
+            width: 70%;
+        }
     }
     .post {
-
         &__slider1 {
             width: 440px;
         }
@@ -398,10 +411,8 @@
         }
     }
     .footer__link {
-      
         font-size: 15px;
-    
-}
+    }
 }
 
 @media (max-width: 320px){
@@ -420,9 +431,14 @@
     }
     .button {
 
+        &__mini {
+            font-size: 16px;
+        }
+
         &__tariff {
             width: 70%;
         }
+
     }
     .post {
         &__slider1 {
@@ -430,6 +446,8 @@
         }
     }
     .mini {
+        padding-top: 20px;
+        padding-bottom:20px;
         h2 {
             font-size: 24px;
             color: blue;
@@ -437,11 +455,10 @@
         h1 {
             display: none;
         }
-        h3 {
-            display: none;
-        }
+      
         input {
             width: 95%;
+            font-size: 12px;
         }
         &__icon{
             img {
@@ -449,16 +466,24 @@
                 height: 50px;
             }
         }
+        &__form-text {
+            font-size: 16px;
+         margin: 0 auto;
+        }
     }
     .why {
         &__subtitle {
-        width: 50px;
-        margin-left: 80px;
+     
+        font-size: 20px;
+     width: 180px;
+    margin: 0 auto;
+   
         }
         &__text {
             display: none;
         }
     }
+
     .place li {
         font-size: 15px;
     }
@@ -495,6 +520,8 @@
         font-size: 17px;
     }
     .place {
+        padding-top: 20px;
+        padding-bottom: 20px;
         img {
             width: 220px;
             height: 180px;

@@ -20,7 +20,9 @@ $(document).ready(function(){
   slidesToScroll: 1,
   infinite: true,
   arrows: false,
+  adaptiveHeigh: true,
   fade: true,
+  
   asNavFor: '.post__slider2',
  
 
@@ -44,11 +46,20 @@ $('.post__slider2').slick({
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 4,
+        slidesToScroll: 4,
         infinite: true,
         centerMode: false,
   
+      }
+    },
+    {
+      breakpoint: 900,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        centerMode: false,
+        vertical: true
       }
     },
     {
@@ -97,7 +108,15 @@ $(document).ready(function(){
     
         }
       },
-      
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          centerMode: false,
+          vertical: true
+        }
+      },
    
   
     ]

@@ -27,15 +27,12 @@ background: url("../img/tariff_bg.jpg") center (center/cover) no-repeat;
                 margin-left: 20px;
             }
     }
-
-
     &__item {
         display: flex;
         margin-top: 12px;
     }
-
     &__card {
-        min-height: 729px;
+        height: 729px;
         background-color: #fff;
         max-width: 320px;
         margin-right: 35px;
