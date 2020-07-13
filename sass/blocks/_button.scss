@@ -6,11 +6,10 @@
         width: 161px;
         height: 58px;
         border: 8px solid #192226;
-      margin-left: 10px;
+        margin-left: 10px;
         display: block; 
         font-size: 20px;
         font-weight: 300;
-       
         }
     &__tariff {
         display: block;
@@ -35,14 +34,13 @@
     &__additional {
         width: 220px;
         height: 50px;
-        margin-top: 24px;
         border: none;
         text-transform: uppercase;
         font-size: 17px;
         font-weight: 300;
-        position: absolute;
-        top: 330px;
-        left: 136px;
+        margin: 9px auto 0;
+        display: block;
+      
         }
     &__questions {
         width: 245px;
@@ -69,9 +67,10 @@
         display: block;
         margin-top: 50px;
         border: none;
+      
     }
 }
-    .title {
+.title {
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
@@ -80,26 +79,26 @@
         &__white {
             color: white;
         }
-    }
-    .red {
+}
+.red {
     width: 217px;
     height: 4px;
     background-color: $main-color;
     margin-top: 31px;
     margin: 31px auto 0;
     border: none;
-    }
-    .grey {
+}
+.grey {
     width: 278px;
     height: 1px;
     background-color: #485862;
     margin: 5px auto 0;
     border: none;
-    }
-    .grey-long {
+}
+.grey-long {
     width: 1000px;
     height: 1px;
     background-color: #485862;
     margin-top: 23px;
     border: none;
-    }
+}

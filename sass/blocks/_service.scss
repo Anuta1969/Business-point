@@ -29,14 +29,14 @@
         line-height: 22px;
         text-align: center;
         margin-top: 19px;
-        }
+    }
     &__subtitle {
         color: #192226;
         font-family: "Roboto - Bold";
         font-size: 17px;
         font-weight: 700;
         line-height: 12px;
-        }
+    }
     &__text {
         line-height: 19px;
         text-align: left;
@@ -44,12 +44,15 @@
         color: #2b343b;
         font-size: 15px;
         font-weight: 300;
+    
+    }
+    &__img {
+        img {
+        display: block;
+       margin: 0 auto;
         }
-        &__img {
-            margin-left: 300px;
-            margin-top: 49px;
-        }
-        &__text-end {
+    }
+    &__text-end {
         color: #222b31;
         font-size: 17px;
         font-weight: 400;
@@ -57,5 +60,5 @@
         text-align: center;
         width: 85%;
         margin-top: 34px;
-        }
+    }
 }

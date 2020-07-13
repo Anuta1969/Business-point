@@ -4,16 +4,16 @@
     padding-bottom: 74px;
     &__wrapper {
         display: flex;
-        margin-top: 111px;
+        margin: 111px auto 0;
+        justify-content: space-evenly;
        
     }
     &__block {
         position: relative;
         border : 1px solid #62d0b8;
-        width: 50%;
-        padding: 100px 15px 70px 32px;
-        min-height: 383px;
-        margin-left: 40px;
+        width: 44%;
+        max-height: 383px;
+     
     }
   
     &__title {
@@ -22,6 +22,8 @@
         font-size: 17px;
         font-weight: 700;
         text-align: center;
+        margin-top: 104px;
+
     }
     &__text {
         color: #2b343b;
@@ -29,27 +31,21 @@
         font-weight: 300;
         margin-top: 20px;
         text-align: center;
+        min-height: 140px;
+        padding: 0 32px;
     }
     &__price {
         font-size: 21px;
         font-weight: 400;
         text-transform: uppercase;
-        margin-top: 82px;
+        margin-top: 42px;
         text-align: center;
-        position: absolute;
-        top: 217px;
-        left: 143px;
+      
     }
     &__icon {
         position: absolute;
-        top: -70px;
-        left: 158px;
+        top: -76px;
+        left: 166px;
     }
 }
 
-.additional__wrapper {
-    :last-child {
-        margin-left: 40px;
-     
-    }
-}
