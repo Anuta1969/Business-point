@@ -1,7 +1,7 @@
+
 @media (max-width: 1200px) {
     .container {
         max-width: 960px;
-
     }
     .header {
         &__text {
@@ -12,15 +12,12 @@
         }
     }
     .mini {
-
         h1 {
             font-size: 28px;
             color: pink;
-        
         }
         h2 {
             font-size: 34px;
-    
         }
         input {
             margin-top: 10px;
@@ -29,17 +26,16 @@
         &__form-text {
             width: 100%;
         }
-      
         &__contact-form {
             flex-direction: column;
             text-align: center;
         }
     }
+
     .feed-form {
         flex-direction: column;
     }
     .post {
-
         &__mini {
             margin-right: 20px;
         }
@@ -47,7 +43,6 @@
     .form__icon-name {
         display: none;
     }
-
     .form__icon-name {
         display: none;
     }
@@ -56,31 +51,61 @@
             margin-top: 10px;
         }
         &__service {
-
             width: 145px;
             font-size: 18px;
         }
+        &__additional {
+            margin: 19px auto 0;
+        }
     }
-   
     .input {
         flex-direction: column;
-      
             :last-child {
             transform: translateX(+4px);
             }
-        }
+    }
     .form__icon-name {
-    display: none;
-}
+        display: none;
+    }
     .form__icon-phone {
      display: none;
     }
+ 
+    .additional {
+        &__icon {
+            position: absolute;
+            top: -74px;
+            }
+        &__price {
+            margin-top: 32px;
+            }
+    }
+    .feed {
+    &__descr {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 100px;
+        }
+    &__person {
+       
+        margin: 0 auto;
+        }
+    }
     .slick-prev {
-        left: 5px;
+ 
+       
+        top: 150px;
+        left: 70px;
     }
+    
     .slick-next {
-        left: 567px;
-    }
+      
+     
+        top: 150px;
+        right: 70px;
+    
+        }
+
 }
 
 @media (max-width: 992px){
@@ -88,19 +113,18 @@
         max-width: 720px;
     }
     .mini {
-            h1 {
-                font-size: 28px;
-                color: yellow;
+        h1 {
+            font-size: 28px;
+            color: yellow;
             }
     }
     .button {
         &__mini {
             margin: 20px auto;
         }
-        // &__additional {
-        //     position: static;
-        //     width: 80%;
-        // }
+        &__additional {
+             margin: 11px auto 0;
+        }
     }
     .why {
         &__wrapper {
@@ -171,10 +195,9 @@
         }
     }
     .additional {
-
         &__icon {
-            left: 86px;
-            top: -80px;
+             top: -78px;
+             margin-left: -21%;
         }
         &__title {
             font-size: 29px;
@@ -182,7 +205,19 @@
         &__text {
             display: none;
         }
-        
+        &__price {
+            margin-top: 32px;
+        }
+        &__block{
+        max-height: 270px;
+        }
+    }
+    .slick-prev {
+    
+    }
+    .slick-next {
+
+    }
      
 }
 
@@ -200,10 +235,10 @@
     }
     .button {
         &__additional {
-        font-size: 15px;
+            font-size: 15px;
+            margin: 39px auto 0;
         }
     }
-   
     .service {
         &__descr {
             display: none;
@@ -232,15 +267,14 @@
         }
     }
     .questions {
-
         &__text {
             font-size: 20px;
         }
     }
-
     .additional {
         &__block {
             width: 41%;
+            margin: 75px auto 0;
         }
         &__price {
             font-size: 20px;
@@ -248,6 +282,10 @@
         &__title {
             font-size: 24px;
           height: 48px;
+        }
+        &__icon {
+            top: -78px;
+            margin-left: -24%;;
         }
     }
     .stick {
@@ -257,16 +295,25 @@
         &__span {
             display: none;
         }
-
         &__slider1 {
             width: 570px;
         }
     }
+
+    .feed {
+        &__position {
+            max-width: 200px;
+        }
+    }
     .slick-prev {
-        left: 75px;
+ 
+        top: 180px;
+        left: 100px;
     }
     .slick-next {
-        left: 487px;
+      
+        top: 180px;
+        right: 100px;
     }
 }
 @media (max-width: 575px){
@@ -283,6 +330,9 @@
         &__phone {
             font-size: 20px;
         }
+        &__button {
+            padding: 11px;
+        }
     }
     .button {
         &__service {
@@ -291,7 +341,6 @@
     }
     .title {
         font-size: 21px;
-      
         text-align: center;
     }
     .header {
@@ -301,8 +350,10 @@
         margin-top: 17px;
         }
         &__button {
-            margin-left: 20px;
-            width: 90%;
+            margin-left: 12px;
+            width: 41%;
+            height: 58px;
+            margin-top: -10px;
         }
     }
     .mini {
@@ -326,7 +377,6 @@
             transform: translateX(0px);
             }
     }
-  
     .why {
         &__block {
             flex-direction: column;
@@ -377,15 +427,14 @@
         }
     }
     .additional {
-        padding-top: 20px;
         &__wrapper {
             flex-direction: column; 
             margin: 11px auto 0;
         }
         &__block {
-       
             width: 55%;
-            margin: 45px auto 0;
+            margin: 85px auto 0;
+            max-height: 220px;
         }
         &__text {
             height: 0;
@@ -395,26 +444,30 @@
             height: 100px;
             margin: 0 70px;
             margin-top: 50px;
+            top: -99px;
+            margin-left: -21%;;
         }
-     
+        &__title {
+            font-size: 20px;
+            padding: 0 10px;
+            margin-top: 50px;
+        }
     }
     .button {
-
         &__additional {
             width: 80%;
+            margin: 14px auto 0;
         }
-
         &__tariff {
             width: 70%;
         }
     }
     .post {
         &__slider1 {
-            width: 440px;
+            width: 340px;
         }
     }
     .place {
-      
         img {
             width: 320px;
             height: 180px;
@@ -423,23 +476,24 @@
     .footer__link {
         font-size: 15px;
     }
-}
-.feed {
-    &__item {
-        margin: 0 70px;
+
+    .feed {
+        &__item {
+            margin: 0 70px;
+        }
+    
     }
-    &__descr {
-        width: 350px;
+
+    .slick-prev {
+        top: 210px;
+        left: 41px;
     }
-}
-.slick-next {
-    left: 270px;
-    top: 110px;
-}
-.slick-prev {
-    left: 200px;
-    top: 110px;
-}
+    
+    .slick-next {
+        top: 210px;
+        right: 41px;
+    
+        }
 }
 
 @media (max-width: 320px){
@@ -457,15 +511,12 @@
             }
     }
     .button {
-
         &__mini {
             font-size: 16px;
         }
-
         &__tariff {
             width: 70%;
         }
-
     }
     .post {
         &__slider1 {
@@ -482,7 +533,6 @@
         h1 {
             display: none;
         }
-      
         input {
             width: 95%;
             font-size: 12px;
@@ -500,15 +550,14 @@
     }
     .why {
         &__subtitle {
-     
-        font-size: 20px;
-        width: 180px;
-        margin: 0 auto;
+            font-size: 20px;
+            width: 180px;
+            margin: 0 auto;
+            }
+            &__text {
+            display: none;
+            }
         }
-        &__text {
-        display: none;
-        }
-    }
     .place li {
         font-size: 15px;
     }
@@ -525,22 +574,14 @@
     .additional  {
        margin: 10px 5px;
         &__icon {
-        width: 60px;
-        height: 60px;
-        margin: 0 auto;
-
+        display: none;
         }
-        // &__wrapper {
-        //   width: 90%;
-        
-        // }
         &__block {
-            width: 70%;
+            width: 100%;
         }
         &__price {
             font-size: 14px;;
         }
-
         &__title {
             font-size: 14px;
         }
@@ -557,8 +598,7 @@
         }
     }
     .footer__menu {
-      
-            display: none;
+        display: none;
         
     }
    .feed {
@@ -569,13 +609,17 @@
            display: block;
        }
    }
-   .slick-next {
-    left: 200px;
-    top: 250px;
+   .slick-prev {
+       
+    top: 253px;
+    left: 52px;
 }
-.slick-prev {
-    left: 150px;
-    top: 250px;
+
+.slick-next {
+    top: 253px;
+    right: 52px;
 }
-}
+
+    }
+
 

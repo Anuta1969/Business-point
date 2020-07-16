@@ -26,8 +26,6 @@ $(document).ready(function(){
   asNavFor: '.post__slider2',
  
 
-  prevArrow: '<button type="button" class="slick-prev"><img src="icon/press.png"></button>',
-  nextArrow: '<button type="button" class="slick-next"><img src="icon/press.png"></button>',
 });
 
 
@@ -69,8 +67,8 @@ $(document).ready(function(){
     slidesToScroll: 2,
     arrows: true,
     // centerMode: true,
-    prevArrow: '<button type="button" class="slick-prev"><img src="icon/left.png"></button>',
-    nextArrow: '<button type="button" class="slick-next"><img src="icon/left.png"></button>',
+    prevArrow: '<button type="button" class="slick-prev"><img src="icon/prev.svg"></button>',
+    nextArrow: '<button type="button" class="slick-next"><img src="icon/next.svg"></button>',
     responsive: [
       {
         breakpoint: 1200,

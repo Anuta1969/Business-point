@@ -2,11 +2,8 @@
     min-height: 561px;
     background-color: #f0f5fb;
     padding: 72px 0 52px 0;
-
     &__wrapper {
         margin-top: 47px;
-        position: relative;
-      
     }
     &__item {
         margin: 0 50px;
@@ -14,7 +11,6 @@
     &__person {
         display: flex;
     }
-
     &__text {
         color: #2b343b;
         font-family: "Roboto - Thin Italic";
@@ -43,19 +39,17 @@
         margin-top: 10px;
     }
     &__descr {
-      display: flex;
-      margin-top: 48px;
-      width: 391px;
-      text-align: justify;
+        display: flex;
+        margin-top: 48px;
+        width: 391px;
+        text-align: justify;
     }
 }
 .quetes__left{
- 
     width: 24px;
     height: 24px;
     margin-top: 55px;
     margin-right: 22px;
-  
 }
 .quetes__right{
     width: 24px;
@@ -64,28 +58,23 @@
     margin-left: 22px;
 }
 .slick-prev {
+ 
     border: none;
     background-color: #f0f5fb;
-    width: 45px;
-    height: 45px;
     position: absolute;
-    top: 120px;
-    left: -100px;
-        img {
-            width: 30px;
-        }
-    }
+    top: 150px;
+    left: 0px;
+}
 
 .slick-next {
+  
     border: none;
-    background-color: #f0f5fb;
-    width: 45px;
-    height: 45px;
     position: absolute;
-    top: 120px;
-    right: -100px;
+    background-color:  #f0f5fb;
+    top: 150px;
+    right: 0px;
 
-        img {
-            width: 30px;
-            }
     }
+  
+
+   

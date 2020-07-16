@@ -6,7 +6,7 @@
     position: relative;
    
     &__slider1 {
-        width: 700px;
+        max-width: 700px;
         margin: 0 auto;
     }
     &__item1 {
@@ -19,7 +19,6 @@
         background-color: rgba(54, 50, 50, 0.6);
     }
     &__slider2 {
-        // width: 1000px;
         margin-top: 22px;
     }
     h2 {

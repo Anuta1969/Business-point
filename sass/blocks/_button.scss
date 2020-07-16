@@ -40,7 +40,6 @@
         font-weight: 300;
         margin: 9px auto 0;
         display: block;
-      
         }
     &__questions {
         width: 245px;
@@ -67,7 +66,6 @@
         display: block;
         margin-top: 50px;
         border: none;
-      
     }
 }
 .title {
@@ -76,9 +74,9 @@
     text-transform: uppercase;
     text-align: center;
     color: #192226;
-        &__white {
-            color: white;
-        }
+    &__white {
+        color: white;
+    }
 }
 .red {
     width: 217px;
@@ -99,6 +97,8 @@
     width: 1000px;
     height: 1px;
     background-color: #485862;
+    margin: 0 auto;
     margin-top: 23px;
     border: none;
+    max-width: 100%;
 }

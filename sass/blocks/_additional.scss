@@ -6,16 +6,13 @@
         display: flex;
         margin: 111px auto 0;
         justify-content: space-evenly;
-       
     }
     &__block {
         position: relative;
         border : 1px solid #62d0b8;
         width: 44%;
         max-height: 383px;
-     
     }
-  
     &__title {
         color: #192226;
         font-family: "Roboto - Bold";
@@ -23,7 +20,6 @@
         font-weight: 700;
         text-align: center;
         margin-top: 104px;
-
     }
     &__text {
         color: #2b343b;
@@ -40,12 +36,12 @@
         text-transform: uppercase;
         margin-top: 42px;
         text-align: center;
-      
     }
     &__icon {
         position: absolute;
-        top: -76px;
-        left: 166px;
+        top: -74px;
+        left:50%; 
+        margin-left:-16%
     }
 }
 
